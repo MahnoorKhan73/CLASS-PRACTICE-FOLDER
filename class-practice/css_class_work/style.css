@@ -1,0 +1,78 @@
+* {
+  background-color: black;
+}
+.Main{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.container {
+  color: white;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+.mainn {
+  /* display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.b {
+  color: black;
+  border-radius: 8px;
+  background-color: palegreen;
+  padding: 10px;
+}
+.bt {
+  color: black;
+  border-radius: 8px;
+  background-color: white;
+  padding: 10px;
+}
+.btn {
+  color: black;
+  background-color: crimson;
+  border-radius: 8px;
+  padding: 10px;
+}
+.btn:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  color: blueviolet;
+}
+.sec {
+  background-color:gray ;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* align-items: center; */
+  border-radius: 8px;
+  right: 50px;
+  
+}
+.sec > h3 {
+  color: white;
+  width: 189px;
+
+}
+.btnn {
+  width: 100px;
+  display: flex;
+/* flex-direction: ; */
+  margin: 20px  ;
+  padding: 5px;
+  color: white;
+  background-color: palegreen;
+  border-radius: 8px;
+}
